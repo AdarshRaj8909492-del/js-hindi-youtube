@@ -26,9 +26,13 @@ let city; //undefined => when we declare a variable but not assign any value to 
 // symbol => unique identifier
 
 
+
 // object => 
 
 console.log(typeof "Adarsh") //string
 console.log(typeof age) //number
 console.log(typeof null) //object
 console.log(typeof undefined) //undefined
+
+
+// Assignment read ecma documentation for more details on data types in JS
