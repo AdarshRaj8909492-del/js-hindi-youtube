@@ -46,3 +46,27 @@ console.log(typeof scoreValue) //number
 console.log(typeof myFunction) //function
 console.log(typeof heros) //object
 console.log(typeof symbol) //symbol
+
+// +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// Stack(Primitive)=> Value , Heap(Non-Primitive)=> original value reference
+
+let myYoutubename = "Adarshraj.com"
+
+let anothername = myYoutubename 
+anothername = "chai aur code"
+
+console.log(myYoutubename);
+console.log(anothername);
+
+let userOne = {
+    email: "user@google.com",
+    upi: "user@ybl"
+}
+
+let userTwo = userOne
+
+userTwo.email = "Adarsh@google.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
