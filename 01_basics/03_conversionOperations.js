@@ -1,8 +1,8 @@
 let score = "98abcd"
 let adher = null
 
-console.log(typeof score) //number
-console.log(typeof(score)) //number
+console.log(typeof score) //string
+console.log(typeof(score)) //string
 
 let valueInNumber = Number(score) //explicit conversion
 console.log(typeof(valueInNumber)) //number
